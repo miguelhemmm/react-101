@@ -1,12 +1,12 @@
-import { Fragment } from 'react'
 import { Home } from './home/Home'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
 
   return (
-    <Fragment>
-      <Home/>
-    </Fragment>
+      <BrowserRouter>
+        <Home/>
+      </BrowserRouter>
 
   )
 }
