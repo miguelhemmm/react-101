@@ -8,6 +8,7 @@ width: 100%;
 background: #83A2FF;
 display: flex;
 align-items: center;
-padding: 0 20px;
+padding:  20px;
 gap: 20px;
+
 `
